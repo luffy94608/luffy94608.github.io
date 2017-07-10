@@ -3,7 +3,7 @@ var audios = window["audios"] || {};
 audios = {
     aud:'',
 	play : function () {
-        var basePath = "/music/";
+        var basePath = "music/";
 		var mp3snd = "marry.mp3";
 		var mp3snd2 = "bg.wav";
 		var bkcolor = "000000";
@@ -39,12 +39,12 @@ audios = {
                     $("#bd_audio_1")[0].src="";
                 }else{
                     audios.aud.pause(); /* 暂停 */
-                    $(".music").find('img').attr("src",'/images/music.png');/* 暂停的图片 ,music 是图片的class */
+                    $(".music").find('img').attr("src",'images/music.png');/* 暂停的图片 ,music 是图片的class */
                 }
                 $(this).data("status",'0');
             }else{
                 $(this).data("status",'1');
-/* 播放的图片 */$(".music").find('img').attr("src",'/images/music.gif');
+/* 播放的图片 */$(".music").find('img').attr("src",'images/music.gif');
 
                 audios.play();/* 播放 */
                 
