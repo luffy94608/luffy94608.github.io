@@ -187,7 +187,7 @@ $(document).ready(function(){
         minSize: 2,		//雪花的最小尺寸
         maxSize: 10, 	//雪花的最大尺寸
         newOn: 500,		//雪花出现的频率 这个数值越小雪花越多
-        content:'<img src="/images/xh.png" style="width:100%">',
+        content:'<img src="images/xh.png" style="width:100%">',
         documentHeight :$(".snow").height(),
         documentWidth :$(".snow").width(),
         flakeColor	: "#ff2727"
